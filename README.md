@@ -1,6 +1,7 @@
 # TIL : Today I Learned
       
 <img src="https://img.shields.io/badge/Blog-20C997?style=for-the-badge&logo=Velog&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=White">
 
 ## 개발 도구 준비
 
