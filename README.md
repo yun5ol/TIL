@@ -1,4 +1,4 @@
-# TIL : Today I Learned [<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">](https://www.notion.so/Sol-s-TIL-6fab8aa7e5544117b17520dfcb40f454)
+# TIL : Today I Learned [<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">](https://www.notion.so/Sol-s-TIL-6fab8aa7e5544117b17520dfcb40f454) 😊🐣
       
 
 ## 목차
