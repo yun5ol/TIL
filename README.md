@@ -1,6 +1,5 @@
-# TIL : Today I Learned
+# TIL : Today I Learned [<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">](https://www.notion.so/Sol-s-TIL-6fab8aa7e5544117b17520dfcb40f454)
       
-[<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">](https://www.notion.so/Sol-s-TIL-6fab8aa7e5544117b17520dfcb40f454)
 
 ## 목차
 + [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
