@@ -2,32 +2,19 @@
       
 <img src="https://img.shields.io/badge/Blog-20C997?style=for-the-badge&logo=Velog&logoColor=white"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=White">
 
-## 개발 도구 준비
+## [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
 
 1. 구글 크롬 설치
-    + Chrome
-    + 
-2. 구글 미트 생성 및 공유
-    + 
-    + 
-3. VSCode (Visual Studio Code) 설치 및 환경 설정
-    + 
-    + 
-4. D2Coding 폰트 설치
-    + 
-    + 
+1. 구글 미트 생성 및 공유
+1. VSCode (Visual Studio Code) 설치 및 환경정
+1. D2Coding 폰트 설치
+
 
 ## 프로그래밍 기초
 
 1. Application 아크텍쳐
-    + 
-    + 
 2. 가상화와 하이퍼바이저
-    + 
-    + 
 3. Git 사용법
-    + 
-    + 
 
 ## 리눅스 기초
 
