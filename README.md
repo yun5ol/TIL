@@ -2,6 +2,11 @@
       
 [<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">](https://www.notion.so/Sol-s-TIL-6fab8aa7e5544117b17520dfcb40f454)
 
+## 목차
++ [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
++ [프로그래밍 기초](https://github.com/yun5ol/TIL/blob/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88.md)
++ 리눅스 기초  
+
 
 ## [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
 
