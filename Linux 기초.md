@@ -1,7 +1,12 @@
-# Linux 기초
+# ⭕ Linux 기초
 
-태그: Ops, 클라우드OS, 클라우드인프라
-학습일: 11/18/2022
+🏷 태그: Ops, 클라우드OS, 클라우드인프라  
+📆 학습일: 11/18/2022
+
+# 목차
+1. 리눅스 설치
+2. 실습
+3. 퀴즈
 
 ## 1. 리눅스 설치
 
@@ -20,7 +25,8 @@
     
 
 ![image](https://user-images.githubusercontent.com/118426836/202899206-99b91874-59c9-4d01-9eeb-7b5bd15fa2bb.png)
-> 계층화 layerd 된 가상 네트워크, 가상 계층 구조 모델링
+> 계층화 layerd 된 가상 네트워크, 가상 계층 구조 모델링  
+
 ![image](https://user-images.githubusercontent.com/118426836/202899245-545f53f1-dd04-4890-a16f-923c70af2f78.png)
 > 버츄얼박스와 함께 구동될 vagrant
 
@@ -43,17 +49,15 @@ VirtualBox와 Vagrant가 설치되었으면, VM을 생성하고 그 위에 올�
         
         : VM의 세부 설정을 정의한다. (네트워크, 용량, 호트이름 등등) 
         
-        ```bash
+        ```
         vagrant init -m "cenetos/7" : VagrantFile 생성
         ```
         
 2. **OS 이미지 다운로드 및 VM 생성, 설치**
 
-        ```bash
+        
         vagrant up : VagrantFile 통한 가상머신 생성
-        ```
-       
-         [vagrant up 오류](Linux%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%200869db93009743c1a95ff87aff0bf057/vagrant%20up%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B2%2052d19754c8084354b2d019512c645df5.md)
+        
 
 1. **VM SSH 접속 : 서버 접속**
     1. 가상 머신 접속 확인
@@ -63,45 +67,44 @@ VirtualBox와 Vagrant가 설치되었으면, VM을 생성하고 그 위에 올�
 
 ### 1.3 기본적인 vagrant 명령어 정리
 
-```bash
-# 가상머신 기동
-vagrant up
-# 가상머신 상태 확인
-vagrant status
-# 가상머신 중단
-vagrant status
-# 가상머신 제거
-vagrant destroy
-# 가상머신 접속
-vagrant ssh
-# 접속 상태에서 다른 가상머신 운영상태 및 id 확인
-vagrant global-status
-# 접속 상태에서 다른 가상머신 중단
-vagrant halt <id>
-# 서버에서 exit
-exit
-```
+    
+    # 가상머신 기동
+    vagrant up
+    # 가상머신 상태 확인
+    vagrant status
+    # 가상머신 중단
+    vagrant status
+    # 가상머신 제거
+    vagrant destroy
+    # 가상머신 접속
+    vagrant ssh
+    # 접속 상태에서 다른 가상머신 운영상태 및 id 확인
+    vagrant global-status
+    # 접속 상태에서 다른 가상머신 중단
+    vagrant halt <id>
+    # 서버에서 exit
+    exit
+    
 
 ## 2. 실습
 
----
 
 ### 2.1 VM 서버이름 변경
 
 **VagrantFile 을 편집한다**
 
-- ssh 서버 접속 후, 호스트명 확인
+    - ssh 서버 접속 후, 호스트명 확인
 
-```bash
-vagrant ssh
-hostname
+    
+    vagrant ssh
+    hostname
 
-#VagrantFile 편집
-config.vm.hostname=""
+    #VagrantFile 편집
+    config.vm.hostname=""
 
-eg.
-**config.vm.hostname = "myhost3.bitcamp"** 
-```
+    eg.
+    **config.vm.hostname = "myhost3.bitcamp"** 
+   
 
 ### 2.2 VM 생성 및 설정
 
@@ -124,9 +127,9 @@ eg.
     4. [README.md](http://README.md) 편집
     5. git commit & push
     
-    nano 에디터 설치
+    ✨ nano 에디터
     
-    ```bash
+    ```
     # 서버 접속 상태에서
     sudo yum install git -y
     # complete 후 버전 확인
@@ -152,25 +155,24 @@ eg.
     ```
     
 
-```bash
-# 리포지토리 clone  
-git clone <URL>
-# Your Name 을 변경해주세요
-git config --global user.name "Your Name"
-# user@email.com 을 변경해주세요
-git confit --global user.email "user@email.com"
-# 커밋 파일 추가
-git add -A
-# 커밋 및 인덱스 추가
-git commit -m “message”
-# push
-git push origin main
+    ```
+    # 리포지토리 clone  
+    git clone <URL>
+    # Your Name 을 변경해주세요
+    git config --global user.name "Your Name"
+    # user@email.com 을 변경해주세요
+    git confit --global user.email "user@email.com"
+    # 커밋 파일 추가
+    git add -A
+    # 커밋 및 인덱스 추가
+    git commit -m “message”
+    # push
+    git push origin main
 
-vagrant init -m "cenetos/7" : VagrantFile 생성
-vagrant up : Vagrantfile 을 통한 가상 머신 생성
+    vagrant init -m "cenetos/7" : VagrantFile 생성
+    vagrant up : Vagrantfile 을 통한 가상 머신 생성
 
-dir : 로 확인
-```
+    dir : 로 확인
 
 ## 3. 퀴즈 
 
