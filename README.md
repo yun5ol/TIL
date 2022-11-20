@@ -20,7 +20,7 @@
 1. Application 아키텍처
 2. 가상화와 하이퍼바이저
 
-## 리눅스 기초
+## [리눅스 기초](https://github.com/yun5ol/TIL/blob/main/Linux%20%EA%B8%B0%EC%B4%88%200869db93009743c1a95ff87aff0bf057.md)
 
 1. Virtual Box 설치
 2. Vagrant 설치
