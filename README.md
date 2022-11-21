@@ -27,3 +27,11 @@
 3. centos 리눅스 머신 생성 및 설정, 실행
 4. centos 에서 git, nano 에디터 설치
 5. github 개인 페이지의 파일을 변경하고 commit & push
+
+## Git 사용법
+
+1. Vagrantfile 이해하기
+1. VCS : 버전관리 시스템
+1. git 사용법
+1. 실습 & git 명령어
+1. 
