@@ -5,6 +5,8 @@
 + [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
 + [프로그래밍 기초](https://github.com/yun5ol/TIL/blob/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88.md)
 + [리눅스 기초](https://github.com/yun5ol/TIL/blob/main/Linux%20%EA%B8%B0%EC%B4%88.md)
++ Git 사용법
+
 
 
 ## [개발 도구 준비](https://github.com/yun5ol/TIL/blob/main/%EA%B0%9C%EB%B0%9C%20%EB%8F%84%EA%B5%AC%20%EC%A4%80%EB%B9%84%20.md)
@@ -34,4 +36,4 @@
 1. VCS : 버전관리 시스템
 1. git 사용법
 1. 실습 & git 명령어
-1. 
+1. 과제
