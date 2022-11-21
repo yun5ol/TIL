@@ -176,16 +176,16 @@ VirtualBox와 Vagrant가 설치되었으면, VM을 생성하고 그 위에 올�
 
 ## 3. 퀴즈 
 
-- 11.21.월 오전
--작업 내용:
+- 11.21.월 오전  
+- 작업 내용:
 
-1. VirtualBox와 Vagrant 도구를 이용하여 로컬에 리눅스 가상 머신을 3개 생성하시오.
-2. 각 가상 머신의 이름을 host1.bitcamp, host2.bitcamp, host3.bitcamp 로 설정하시오.
-3. 각 가상 머신에 "https://github.com/eomjinyoung/bitcamp-study" 저장소를 복제하시오.
+    1. VirtualBox와 Vagrant 도구를 이용하여 로컬에 리눅스 가상 머신을 3개 생성하시오.
+    2. 각 가상 머신의 이름을 host1.bitcamp, host2.bitcamp, host3.bitcamp 로 설정하시오.
+    3. 각 가상 머신에 "https://github.com/eomjinyoung/bitcamp-study" 저장소를 복제하시오.
 
     복제한 저장소의 위치: ~/git/bitcamp-study
 
-
+    ```
     # 디렉토리 생성
     # Vagrantfile 생성 > 서버이름 함께 수정 : log 붙여넣기
     vagrant init -m ""
@@ -210,3 +210,4 @@ VirtualBox와 Vagrant가 설치되었으면, VM을 생성하고 그 위에 올�
     cd bitcamp-study
     ls : docs README. 확인 가능
     pwd : /home/vagrant/git/bitcamp-study
+    ```
