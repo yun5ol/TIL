@@ -1,15 +1,14 @@
-# Git & 브랜치 사용법
+# ♦ Git & 브랜치 사용법
 
-태그: Ops, 클라우드OS, 클라우드인프라
-학습일: 11/23/2022
+🏷태그: Ops, 클라우드OS, 클라우드인프라  
+📆 학습일: 11/23/2022
 
 ## 1. Git 사용법 (2)
 
----
 
 ### 1.1 .gitignore 파일의 역할 테스트
 
-```bash
+```
 [vagrant@host1 bitcamp-ncp]$ git log --oneline   한줄로 나타낸다
 3e89afe Merge branch 'main' of https://github.com/yun5ol/bitcamp-ncp
 701d0c1 Initial commit
@@ -45,7 +44,7 @@ local.properties
 
 ### 1.2 git 명령어 활용 실습
 
-```bash
+```
 [vagrant@host1 bitcamp-ncp]$ mkdir tmp
 [vagrant@host1 bitcamp-ncp]$ pwd
 /home/vagrant/git/bitcamp-ncp
@@ -271,7 +270,7 @@ origin  https://github.com/yun5ol/bitcamp-ncp (push)   업로드하는 URL
 * 493c125 5
 ```
 
-```bash
+```b
 # 2서버 열기
 
 [vagrant@host2 ~]$ ls
@@ -375,7 +374,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 ### 1.3 git merge 충돌
 
-```bash
+```b
 # 서버랑 로컬 버전 다를 때 rejected
 서버 1에서 수정한 게 있는데
 서버 2도 수정을 한 상황
@@ -456,7 +455,7 @@ de1e3f5 25
 > **chekcout** : HEAD가 가리키는 브랜치의 최신 버전을 작업 디렉토리에 꺼낸다.
 > 
 
-```bash
+```
 # 브랜치를 관리
 git branch
 # 브랜치 중에 merge 한 항목 조회
@@ -470,9 +469,10 @@ git checkout []     : HEAD 포인터를 옮긴다
 
 ```
 
-## 3. 작업순서 : 수업자료 이해
+## 3. 작업순서 : 수업자료 이해  
 
----
+![화면 캡처 2022-11-22 201630](https://user-images.githubusercontent.com/118426836/203301046-40ce0f01-e52f-4f0a-ab9a-136a7da7748b.png)
+
 
 1. **서버 리포지토리 생성**
 2. **서버 리포지토리** **클론**
@@ -503,7 +503,7 @@ git checkout []     : HEAD 포인터를 옮긴다
 9. **서버 메인에 푸시 (로컬 브랜치의 과정 까지 모두 푸시됨)**
 10. **로컬 브랜치 삭제**
 
-```bash
+```
 
 test 2
 
