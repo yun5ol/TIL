@@ -6,6 +6,7 @@
 + [프로그래밍 기초](https://github.com/yun5ol/TIL/blob/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88.md)
 + [리눅스 기초](https://github.com/yun5ol/TIL/blob/main/Linux%20%EA%B8%B0%EC%B4%88.md)
 + [Git 사용법](https://github.com/yun5ol/TIL/blob/main/Git%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
++ [Git 사용법 (2) & 브랜치](https://github.com/yun5ol/TIL/blob/main/Git%20%26%20%E1%84%87%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%8E%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20.md)
 
 
 
@@ -37,3 +38,11 @@
 1. git 사용법
 1. 실습 & git 명령어
 1. 과제
+
+## [Git 사용법 (2) & 브랜치](https://github.com/yun5ol/TIL/blob/main/Git%20%26%20%E1%84%87%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%8E%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20.md)
+
+1. Git 사용법 (2)
+2. Branch 브랜치
+3. 작업순서 : 수업자료 이해하기
+4. 팀과제
+5. 번외
