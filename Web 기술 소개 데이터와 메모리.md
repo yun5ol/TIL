@@ -1,13 +1,22 @@
-# Web 기술 소개 :  데이터와 메모리
+# 😁 Web 기술 소개 :  데이터와 메모리
 
-교재: Do it! 웹표준의정석
-작업중: In progress
-태그: Dev, 웹&모바일, 웹프로그래밍기초
-학습일: 11/24/2022
+📓 교재: Do it! 웹표준의정석   
+🏷 태그: Dev, 웹&모바일, 웹프로그래밍기초  
+📆 학습일: 11/24/2022  
+
+
+# 목차  
+1. 데이터와 메모리
+    1. 메모리 상태의 표기
+    2. 숫자와 자릿수
+    3. 데이터를 메모리에 저장 : 숫자
+    4. 데이터를 메모리에 저장 : 문자
+    5. 데이터를 메모리에 저장 : 색상
+    7. 데이터를 메모리에 저장 : 영상과 엔코딩/디코딩
+
 
 # 1. Data 와 메모리
 
----
 
 **Data : 자석의 극 방향으로 데이터를 표시**
 
@@ -54,7 +63,7 @@
     > 
     > 뺄셈의 연산 결과가 일반적이지 않다.
     > 
-    > (이미지 첨부) 필요
+    > 
     > 
     
     > **규칙 2. 1’s complement : 1 의 보수**
@@ -90,7 +99,7 @@
     > 86bit = 2^(8-1) -1 = 128-1 = 127
     > $$
     > 
-    > (그림첨부)
+    > 
     > 
     
     ### 1.4 Data 변환 규칙 : 문자
@@ -202,10 +211,7 @@
 
 eg. URL Encoding / Decoding = Percent Encoding / Decoding
 
-(그림)
 
-- **encoding :**
-- **decoding :**
 - **URL Encoding** : URL 에서 특수 목적으로 사용하는 문자는 일반 용도로 사용할 수 없다.
     
     > **예약어 reserved keyword ↙**
@@ -255,152 +261,4 @@ eg. URL Encoding / Decoding = Percent Encoding / Decoding
 
 해결방안 > 해당 코덱을 다운받아 플레이어에 설치한다.
 
-## CR / LF
 
-Carrage Return Line Feed
-
-예전에 타자기에서 줄 바꾸는 것을 모방하여 만든 코드 값
-
-CR > >00D
-
-LF > >00A
-
-## 3. HTML 태그 정리
-
-```html
-시작태그와 끝태그 사이에 컨텐트가 없는 <hr> <br> 의 경우는,
-
-a (ankor) : . dot
-
-# : 이 문서의 다른 태그를 가르킬 때 쓴다 (32-8)
-
-<body>
-    <a href="#alpha">Move to Alpha</a>  누르면 자동 스크롤
-    <a href="#beta">Move to Beta</a>
-    <a href="#gamma">Move to Gamma</a>
-. . .
-
-# ruby title
-<body>
-    <ruby>
-        <span>大韓民國</span>
-        <rt>대한민국</rt>
-    </ruby>
-</body>
-
-<body>
-    <ruby>
-        <span>大韓民國</span>
-        <rp>(</rp> 크롬은 지원하지 않아
-        <rt>대한민국</rt>
-        <rp>)</rp>
-    </ruby>
-</body>
-
-<body>
-    <dl>
-        <dt>HTML5</dt>
-        <dd>Multimedia Tag</dd>
-        <dd>Connectivity</dd>
-        <dd>Device Access</dd>
-        <dt>Milk</dt>
-        <dd>Animation</dd>
-        <dd>3D Transform</dd>
-    </dl>
-</body>
-
-<table border="1">
-        <tr> table row : 한 행
-            <th>Header 1</th> 
-            <th>Header 2</th>
-        </tr>
-        <tr> table row : 한 행
-            <td>Data 1</td>
-            <td>Data 1</td>
-        </tr>
-        <tr> table row : 한 행
-            <td>Data 2</td>
-            <td>Data 2</td>
-        </tr>
-    </table>
-
-<colgroup>
-            <col span="2" style="background2: red" /> span 두칸을 지정
-            <col style="background2: blue" />
-        </colgroup>
-</colgroup>
-<thead style="background: green">  thead 가 최우선
-
-```
-
-![Untitled](Web%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%20%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8B%E1%85%AA%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%2005031541fd9040a5801a99fa3b84aad5/Untitled%2017.png)
-
-### 3.1 tag 와 attribute
-
-```html
-<a href=" "> </a> a : dot ankor
-
-2-24
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML TEXT Basic Page</title>
-</head>
-<body>
-    <audio src="Kalimba.mp3" controls="controls"></audio>
-    <audio src="Kalimba.mp3" controls></audio>
-</body> controls 속성 중에 값에 상관없이 존재 유무로 기능을 수행하는 속성들이 있다.
-</html> selected
-        checked
-        readonly ...
-
-2-27
-<audio controls="controls">
-        <source src="Kalimba.mp3" type="audio/mp3" />
-        <source src="Kalimba.ogg" type="audio/ogg" /> 여기서 type은 MIMEtype
-    </audio>
-
-```
-
-- MIME Type (Multi-purpose internet mail Extensions)
-    
-    메일에 첨부한 콘텐트가 어떤 형식인지 상태에 대해 알려주는 용도
-    
-    ➡ 현재는 메일 뿐만 아니라 웹 등 여러곳에서 사용하고 있다.
-    
-
-[Common MIME types - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
-
-### 3.2 CSS
-
-- <style> 태그
-
-```html
-<style>
-...
-</style>
-```
-
-- inline 스타일 **“ 최우선으로 적용됨 “**
-
-```html
-               CSS 코드
-<tfoot style="background: yellow">
-            <tr>
-                <td>Table Data</td>
-                <td>Table Data</td>
-                <td>Table Data</td>
-            </tr>
-        </tfoot>
-```
-
-- 외부 CSS 파일
-    
-    여러 html 페이지에서 css 를 공유할 수 있다.
-    
-
-```html
-
-```
-
-## 4. 과제 : **시맨틱 태그의 목적과 주 태그의 용도를 기술하시오.**
