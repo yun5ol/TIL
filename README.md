@@ -9,7 +9,7 @@
 + [Git 사용법 (2) & 브랜치](https://github.com/yun5ol/TIL/blob/main/Git%20%26%20%E1%84%87%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%8E%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20.md)
 + [HTML](https://github.com/yun5ol/TIL/blob/main/HTML.md)
 + [HTTP 프로토콜](https://github.com/yun5ol/TIL/blob/main/HTTP%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
-+ [HTML CSS Javascript]
++ [HTML CSS Javascript](https://github.com/yun5ol/TIL/blob/main/HTML%20CSS%20JS.md)
 + [Web 기술 소개](https://github.com/yun5ol/TIL/blob/main/Web%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%20%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8B%E1%85%AA%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5.md)
 
 
@@ -57,7 +57,7 @@
 1. HTML 기본 구조
 2. [HTTP 프로토콜](https://github.com/yun5ol/TIL/blob/main/HTTP%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
 
-## [HTML CSS Javascript]
+## [HTML CSS Javascript](https://github.com/yun5ol/TIL/blob/main/HTML%20CSS%20JS.md)
 1. HTML
 1. CSS
 1. Javascript
