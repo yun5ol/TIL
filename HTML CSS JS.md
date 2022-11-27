@@ -1,19 +1,23 @@
-# HTML
+# HTML CSS JS
+
+# 목차
+1. HTML 태그 정리
+2. CSS (not started)
+3. JS (not started)
 
 ## HTML
 
 - “**Hyper Text** (고도화된 텍스트)”
     
-    고도화를 위해 별도의 **표시** (형식) 이 필요 = **Markup** > **L**anguage 필요하여 탄생한
+    고도화를 위해 별도의 **표시** (형식) 이 필요 = **Markup** > **L**anguage 필요하여 탄생한  
+    **고도화된 마크업 언어 : HTML**  
     
-    **고도화된 마크업 언어 : HTML** 
-    
-
 - 웹에서 자유롭게 오갈 수 있는 웹 문서를 만드는 언어
 
-# 태그 정리
 
 ---
+# 태그 정리
+
 
 ### 문서의 기본 구조
 
@@ -82,10 +86,10 @@
 ```html
 <table>
 # 표 생성
-<caption></caption> 표 제목
-<tr></tr> 행 table row
-<th></th> 표 제목 table head
-<td></td> 표 데이터 table data
+<caption></caption> `표 제목`
+<tr></tr> `행 table row`
+<th></th> `표 제목 table head`
+<td></td>` 표 데이터 table data`
 ```
 
 ### 이미지 / 오디오 / 비디오
