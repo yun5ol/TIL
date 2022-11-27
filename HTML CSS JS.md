@@ -15,7 +15,7 @@
 - 웹에서 자유롭게 오갈 수 있는 웹 문서를 만드는 언어
 
 
----
+
 # 태그 정리
 
 
@@ -86,10 +86,10 @@
 ```html
 <table>
 # 표 생성
-<caption></caption> `표 제목`
-<tr></tr> `행 table row`
-<th></th> `표 제목 table head`
-<td></td>` 표 데이터 table data`
+<caption></caption> ◾표 제목
+<tr></tr> ◾행 table row
+<th></th> ◾표 제목 table head
+<td></td> ◾표 데이터 table data
 ```
 
 ### 이미지 / 오디오 / 비디오
@@ -142,21 +142,21 @@ target="_blank" 새 창에서 열기
 eg. 검색창, 로그인창, 계정생성 팝업창
 
 ```html
-<form action=""> 서버에서 데이터를 처리할 프로그램 지정 
-  <label>아이디 : <input type="text"></label> 입력필드와 항목을 구분
+<form action=""> ◾서버에서 데이터를 처리할 프로그램 지정 
+  <label>아이디 : <input type="text"></label> ◾입력필드와 항목을 구분
   <label>비밀번호 : <input type="password"></label>
 </form>
-  <input type="submit" value="전송"> value 값으로 아이콘 표시
+  <input type="submit" value="전송"> ◾value 값으로 아이콘 표시
 
 # <label> 은 아래처럼 따로 표기도 가능
   <lable for="user-id">아이디 : </label>
 	<input type-"text" id="user-id">
 
 # type="radion" type="checkbox"
-	<input type="radio" name="cf"/>짜장면   radio button 1가지만 선택 가능
-  <input type="radio" name="cf"/>짬뽕    checkbox 2 이상 선택 가능
-  <input type="radio" name="cf"/>짬짜면  name 동일 그룹임을 표시
-	<input type="checkbox" />정보처리기사  checkbox 2 이상 선택 가능
+	<input type="radio" name="cf"/>짜장면   ◾radio button 1가지만 선택 가능
+  <input type="radio" name="cf"/>짬뽕    ◾checkbox 2 이상 선택 가능
+  <input type="radio" name="cf"/>짬짜면  ◾name 동일 그룹임을 표시
+	<input type="checkbox" />정보처리기사  ◾checkbox 2 이상 선택 가능
   <input type="checkbox" />운전면허
   <input type="checkbox" checked/>오라클자격증
 
@@ -206,15 +206,15 @@ eg. 가입 경로, 검색 경로 etc...
 ```html
 # textarea
 <form>
-  <textarea id="memo" cols="40" rows="4"></textarea> 화면에 보이는 칼럼(글자)수와 행수 대략 설정
+  <textarea id="memo" cols="40" rows="4"></textarea> ◾화면에 보이는 칼럼(글자)수와 행수 대략 설정
 </form>
 
 # selectmenu
 여러 항목 중 한 가지 고르도록
 <select>
-  <option value="1줄">김밥 1줄</option>  셀렉트메뉴에 들어가는 항목 태그  
-  <option value="1인분">떡볶이 1인분</option>  서버로 넘어가는 정보 유저에게 보이는 정보
-  <option value="2인분" selected>순대 2인분</option> 자동 추가될 항목
+  <option value="1줄">김밥 1줄</option>  ◾셀렉트메뉴에 들어가는 항목 태그  
+  <option value="1인분">떡볶이 1인분</option>  ◾서버로 넘어가는 정보 유저에게 보이는 정보
+  <option value="2인분" selected>순대 2인분</option> ◾자동 추가될 항목
   <option>오뎅</option>
 </select>
 ```
