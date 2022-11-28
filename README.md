@@ -10,7 +10,7 @@
 + [HTML](https://github.com/yun5ol/TIL/blob/main/HTML.md)
 + [HTTP 프로토콜](https://github.com/yun5ol/TIL/blob/main/HTTP%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
 + [HTML CSS Javascript](https://github.com/yun5ol/TIL/blob/main/HTML%20CSS%20JS.md)
-+ [CSS]
++ [CSS](https://github.com/yun5ol/TIL/blob/main/CSS%20%EC%82%AC%EC%9A%A9%EB%B2%95%20.md)
 + [Web 기술 소개](https://github.com/yun5ol/TIL/blob/main/Web%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%20%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8B%E1%85%AA%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5.md)
 
 
