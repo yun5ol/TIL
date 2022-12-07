@@ -13,6 +13,7 @@
 + [CSS](https://github.com/yun5ol/TIL/blob/main/CSS%20%EC%82%AC%EC%9A%A9%EB%B2%95%20.md)
 + [CSS 2](https://github.com/yun5ol/TIL/blob/main/CSS%20%EC%82%AC%EC%9A%A9%EB%B2%95%20(2)%20.md)
 + [JavaScript 연산자](https://github.com/yun5ol/TIL/blob/main/Javascript%20%EC%97%B0%EC%82%B0%EC%9E%90%20.md)
++ [JavaScript 반복문, 구조분해, 변수] (https://github.com/yun5ol/TIL/blob/main/Javascript%20(3).md)
 + [Web 기술 소개](https://github.com/yun5ol/TIL/blob/main/Web%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%20%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%8B%E1%85%AA%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5.md)
 
 
@@ -63,7 +64,8 @@
 ## [HTML CSS Javascript](https://github.com/yun5ol/TIL/blob/main/HTML%20CSS%20JS.md)
 1. HTML
 1. CSS
-1. [Javascript](https://github.com/yun5ol/TIL/blob/main/Javascript%20%EC%97%B0%EC%82%B0%EC%9E%90%20.md)
+1. [Javascript ](https://github.com/yun5ol/TIL/blob/main/Javascript%20%EC%97%B0%EC%82%B0%EC%9E%90%20.md)
+1. [JavaScript 반복문, 구조분해, 변수] (https://github.com/yun5ol/TIL/blob/main/Javascript%20(3).md)
 
 ## [CSS](https://github.com/yun5ol/TIL/blob/main/CSS%20%EC%82%AC%EC%9A%A9%EB%B2%95%20.md)
 1. CSS 사용법
