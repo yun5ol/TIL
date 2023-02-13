@@ -42,12 +42,4 @@ eg. ERD 참고
 >     ⇒ dao 간 호출도 마찬가지
 >     
 
----
 
-비밀번호 256비트로 변
-
-update app_member set pwd = sha(’1111’,256);
-
-join할 때는 테이블 별명 필요
-
-select 에는 불필요
